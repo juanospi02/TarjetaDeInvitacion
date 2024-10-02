@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.invitation {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    z-index: -1;
+}
+
+.content {
+    position: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    top: 23%;
+    font-size: 3.5em;
+    right: 3.5%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: black;
+}
+
+.event-date{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    right: 3.5%;
+}
+
+.event-place{
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    right: 3.5%;
+}
+
+.event-image {
+    position: relative;
+    max-width: 100%;
+    height: 330px;
+    margin: 20px 0;
+    top: 680px;
+    right: 8%;
+}
+
+.event-video {
+    position: relative;
+    max-width: 250px;
+    height: auto;
+    width: 100%;
+    left: 7%;
+    top: 300px;
+    margin: 20px 0;
+    color: azure;
+}
+
+.message {
+    position: absolute;
+    position: absolute;
+    max-width: 500px;
+    height: 50%;
+    top: 55%;
+    left: 50%;
+    font-size: 1.8em;
+}
+
